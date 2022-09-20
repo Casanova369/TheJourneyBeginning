@@ -32,3 +32,6 @@
  List   - $ git remote
  Delete - $ git remote rm origin
  Create - $ git remote add origin <HTTPS> or <SSH>
+
+# Switch to a new branch specifing a name
+  $ git checkout -b "teste"
