@@ -19,3 +19,11 @@
 
 # Envia o código atual para o repositorio remoto
   $ git push -u origin main
+
+# to list local branches
+ List $ git branch -a
+ Delete $ git branch -d <branch-name>
+
+
+# to list remote branches
+ $ git branch -r
