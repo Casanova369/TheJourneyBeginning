@@ -1,31 +1,34 @@
 
-# Inicializar o Repositorio	  # Finalizar Repositório
+# Intialize repository	  # Remove repository
   $ git init			        $ rm -rf .git
 
-# Verifica o estado do arquivo (Staged, Unstaged)
+# Check files status (Staged, Unstaged)
   $ git status
 
 # Prepara o arquivo (Staged)
   $ git add .
 
-# Confirma (commit) todos -a (all) arquivos com uma mensagem -m (message)
+# Confirm (commit) all (-a) all files with a message (-m)
   $ git commit -a -m
 
-# Link the remote directory with github repository
+# Link the local repository with github repository
   $ git remote add origin git@github.com:Casanova369/git-tutorial.git
 
-# Nomeando o ramo principal
+# Name the main branch
   $ git branch -M main
 
-# Envia o código atual para o repositorio remoto
+# Push files to remote repository
   $ git push -u origin main
 
-# local branches
- List $ git branch -a
- Delete $ git branch -d <branch-name>
+# Local branches management
+  Read   - $ git branch -a
+  Delete - $ git branch -d <branch-name>
+  Create - $ git branch -M main
 
-# remote branches
+# remote branches management
  $ git branch -r
 
-# Remove origin
- $ git remote rm origin
+# Origin management
+ List   - $ git remote
+ Delete - $ git remote rm origin
+ Create - $ git remote add origin <HTTPS> or <SSH>
