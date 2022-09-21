@@ -37,4 +37,4 @@
   $ git checkout -b "teste"
 
 # 
- $ git push --set upstream origin teste
+ 

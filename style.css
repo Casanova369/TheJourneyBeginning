@@ -8,7 +8,8 @@ body {
 
 /*defines the marker for the details <tag> */
 summary::marker {
-    content: none;
+    content: '+ ';
+    font-size: 1.0rem;
 }
 
 details.styled {
@@ -19,7 +20,7 @@ details.styled {
     border-radius: 4px;
     width: 400px;
 
-    transition: all 0.1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     max-height: 22px;
     overflow: hidden;
 }
@@ -35,8 +36,7 @@ details.styled summary {
 
 /*When opened, changes color*/
 details[open].styled {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: white;
+    background-color: rgba(255, 255, 255, 1);
     max-height: 500px;
 }
 
