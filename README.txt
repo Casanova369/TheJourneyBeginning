@@ -17,7 +17,7 @@
 # Name the main branch
   $ git branch -M main
 
-# Push files to remote repository
+# Push ("Send") files to remote repository
   $ git push -u origin main
 
 # Local branches management
@@ -35,3 +35,6 @@
 
 # Switch to a new branch specifing a name
   $ git checkout -b "teste"
+
+# 
+ $ git push --set upstream origin teste
